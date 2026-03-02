@@ -13,12 +13,12 @@ button{
     border: 2px solid;
     padding: 1em 2em;
     font-size: 1em;
-    transition:color 0.2s, border-color 0.2s, transform 0.2s, box-shadow 0.2s ;
+    transition:color 0.3s, border-color 0.3s, transform 0.3s, box-shadow 0.3s ;
     cursor: pointer;
 }
 button:hover{
     border-color:rgb(255, 94, 0);
     color: rgba(255, 255, 255, 0.904);
-    box-shadow: 0 0.5em 0.5em -0.3em rgb(255, 94, 0);
+    box-shadow: 0 0.5em 1em -0.3em rgb(255, 94, 0);
     transform:translate(0, -0.25em);
 }
